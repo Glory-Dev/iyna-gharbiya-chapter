@@ -1,0 +1,43 @@
+.landing {
+  @media (min-width: 992px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    max-height: calc(100vh - 56px);
+    background: linear-gradient(to right, $primary-color calc(75% - 1rem), white calc(75% - 1rem));
+
+    .text {
+      height: 100%;
+      padding: 6rem 2rem 15rem !important;
+    }
+    .image {
+      display: block;
+    }
+  }
+
+  .row {
+    > * {
+      padding: 0 !important;
+    }
+    .text {
+      padding: 2rem;
+      background: $primary-color;
+
+      .heading {
+        font: {
+          family: "Poppins", sans-serif;
+          weight: 700;
+        }
+      }
+      p {
+        text-align: justify;
+        font-size: 1.2rem;
+      }
+    }
+    .image {
+      @media (max-width: 991.98px) {
+        display: none;
+      }
+    }
+  }
+}

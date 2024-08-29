@@ -1,0 +1,30 @@
+// Helpers
+@import "./sass/helpers/variables";
+@import "./sass/helpers/mixins";
+// Components
+@import "./sass/components/landing";
+// Layout
+@import "./sass/layout/global-rules";
+body {
+  // Layout
+  @import "./sass/layout/navbar";
+  @import "./sass/layout/footer";
+  // Pages
+  @import "./sass/pages/home";
+  @import "./sass/pages/about";
+  @import "./sass/pages/contest";
+  @import "./sass/pages/journals";
+  @import "./sass/pages/contact";
+
+  height: 5000px;
+}
+
+// Fonts
+// font-family: "Open Sans", sans-serif;
+// font-family: "Poppins", sans-serif;
+
+// font-family: "Syne", sans-serif;
+// font-weight: 400;
+
+// font-family: "Syncopate", sans-serif;
+// font-weight: 400, 700;
