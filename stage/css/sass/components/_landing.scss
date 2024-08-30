@@ -3,6 +3,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     max-height: calc(100vh - 56px);
+    color: white;
     background: linear-gradient(to right, $primary-color calc(75% - 1rem), white calc(75% - 1rem));
 
     .text {

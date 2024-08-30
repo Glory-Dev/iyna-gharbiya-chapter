@@ -1,3 +1,21 @@
+.stats {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+
+    .box {
+      p.number {
+        font-size: 4rem;
+        &.plus-sign::after {
+          content: "+"
+        }
+      }
+
+    }
+  }
+}
+
 .sections {
   .box {
     .text {
