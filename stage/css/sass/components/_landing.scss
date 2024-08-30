@@ -1,14 +1,15 @@
 .landing {
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     padding-left: 2rem;
     padding-right: 2rem;
-
     max-height: calc(100vh - 56px);
     background: linear-gradient(to right, $primary-color calc(75% - 1rem), white calc(75% - 1rem));
 
     .text {
-      height: 100%;
-      padding: 6rem 2rem 15rem !important;
+      height: calc(100vh - 85px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
     .image {
       display: block;
@@ -28,6 +29,9 @@
           family: "Poppins", sans-serif;
           weight: 700;
         }
+        @media (max-width: 1399.98px) {
+          font-size: 1.5rem;
+        }
       }
       p {
         text-align: justify;
@@ -35,7 +39,7 @@
       }
     }
     .image {
-      @media (max-width: 991.98px) {
+      @media (max-width: 1191.98px) {
         display: none;
       }
     }
