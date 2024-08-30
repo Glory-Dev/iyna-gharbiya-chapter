@@ -8,10 +8,9 @@
       p.number {
         font-size: 4rem;
         &.plus-sign::after {
-          content: "+"
+          content: "+";
         }
       }
-
     }
   }
 }
@@ -40,6 +39,23 @@
       img {
         width: 60px;
         height: 60px;
+      }
+    }
+  }
+}
+
+.app-email {
+  max-width: 850px;
+
+  .holder {
+    @media (min-width: 768px) {
+      padding-left: 6rem !important;
+      padding-right: 6rem !important;
+    }
+
+    [type="submit"] {
+      @media (max-width: 767.98px) {
+        width: 100%;
       }
     }
   }
