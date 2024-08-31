@@ -3,13 +3,13 @@
 @import "./sass/helpers/mixins";
 @import "./sass/helpers/classes";
 // Components
-@import "./sass/components/landing";
 @import "./sass/components/button";
 // Layout
 @import "./sass/layout/global-rules";
 body {
   // Layout
   @import "./sass/layout/navbar";
+  @import "./sass/components/landing";
   @import "./sass/layout/footer";
   // Pages
   @import "./sass/pages/home";

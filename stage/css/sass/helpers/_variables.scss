@@ -1,18 +1,8 @@
 // Fonts
-// font-family: "Open Sans", sans-serif;
-// font-family: "Poppins", sans-serif;
-
-// font-family: "Syne", sans-serif;
-// font-weight: 400;
-
-// font-family: "Syncopate", sans-serif;
-// font-weight: 400, 700;
-
-
-// Fonts
-// $body-primary-font: "Inter", sans-serif;
-// $body-secondary-font: "Averia Serif Libre", serif;
-// $body-numbers-font: "Big Shoulders Display", sans-serif;
+$body-primary-font: "Open Sans", sans-serif;
+$body-secondary-font: "Poppins", sans-serif;
+$syne-font: "Syne", sans-serif;
+$syncopate-font: "Syncopate", sans-serif;
 // Weights
 $fw-thin: 100;
 $fw-extra-light: 200;
@@ -24,8 +14,12 @@ $fw-bold: 700;
 $fw-extra-bold: 800;
 $fw-black: 900;
 
+// Main
+$trans-duration: 0.3s;
+
 // Colors
 $primary-color: #011b69;
+$secondary-color: #1f0045;
 
 // Social
 $github: black;

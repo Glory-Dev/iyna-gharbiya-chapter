@@ -27,7 +27,7 @@
 
       .heading {
         font: {
-          family: "Poppins", sans-serif;
+          family: $body-secondary-font;
           weight: 700;
         }
         @media (max-width: 1399.98px) {
@@ -42,6 +42,19 @@
     .image {
       @media (max-width: 1191.98px) {
         display: none;
+      }
+      animation: move-up-down linear 7s infinite ;
+
+      @keyframes move-up-down {
+        0%, 50%, 100% {
+          transform: translateY(0);
+        }
+        25% {
+          transform: translateY(-50px);
+        }
+        75% {
+          transform: translateY(50px);
+        }
       }
     }
   }
