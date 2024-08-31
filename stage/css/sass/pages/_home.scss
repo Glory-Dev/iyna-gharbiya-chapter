@@ -44,19 +44,28 @@
   }
 }
 
+.app-email,
+.footer {
+  [type="submit"] {
+    @media (max-width: 767.98px) {
+      width: 100%;
+    }
+  }
+}
+
 .app-email {
   max-width: 850px;
+  margin-top: 3rem;
+  margin-bottom: -100px;
 
   .holder {
     @media (min-width: 768px) {
       padding-left: 6rem !important;
       padding-right: 6rem !important;
     }
-
-    [type="submit"] {
-      @media (max-width: 767.98px) {
-        width: 100%;
-      }
-    }
   }
+}
+
+.footer {
+  padding-top: 6rem !important;
 }

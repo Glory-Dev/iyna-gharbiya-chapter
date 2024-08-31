@@ -1,15 +1,37 @@
+// Fonts
+// font-family: "Open Sans", sans-serif;
+// font-family: "Poppins", sans-serif;
+
+// font-family: "Syne", sans-serif;
+// font-weight: 400;
+
+// font-family: "Syncopate", sans-serif;
+// font-weight: 400, 700;
+
+
+// Fonts
+// $body-primary-font: "Inter", sans-serif;
+// $body-secondary-font: "Averia Serif Libre", serif;
+// $body-numbers-font: "Big Shoulders Display", sans-serif;
+// Weights
+$fw-thin: 100;
+$fw-extra-light: 200;
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+$fw-extra-bold: 800;
+$fw-black: 900;
+
+// Colors
 $primary-color: #011b69;
 
-.w-fit-content {
-  width: fit-content
-}
-.text-justify {
-  text-align: justify;
-}
-.main-text {
-  color: #011b69 !important;
-}
-.main-bg {
-  color: white;
-  background-color: #011b69 !important;
-}
+// Social
+$github: black;
+$youtube: #f20000;
+$discord: #6c82cf;
+$twitter: #28a0d5;
+$facebook: #1771e6;
+$linkedin: #0077b5;
+$instagram: #5865f2;

@@ -1,6 +1,7 @@
 // Helpers
 @import "./sass/helpers/variables";
 @import "./sass/helpers/mixins";
+@import "./sass/helpers/classes";
 // Components
 @import "./sass/components/landing";
 @import "./sass/components/button";
@@ -17,13 +18,3 @@ body {
   @import "./sass/pages/journals";
   @import "./sass/pages/contact";
 }
-
-// Fonts
-// font-family: "Open Sans", sans-serif;
-// font-family: "Poppins", sans-serif;
-
-// font-family: "Syne", sans-serif;
-// font-weight: 400;
-
-// font-family: "Syncopate", sans-serif;
-// font-weight: 400, 700;
