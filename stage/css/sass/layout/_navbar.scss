@@ -12,7 +12,8 @@
       padding: 1rem !important;
       transition: $trans-duration;
 
-      &:hover, &.active {
+      &:hover,
+      &.active {
         background-color: $primary-color;
         color: white;
       }

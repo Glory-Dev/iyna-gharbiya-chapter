@@ -13,7 +13,7 @@
         &:hover a {
           background-color: #fff;
           transform: scale(1.2);
-    
+
           svg[class*="github"] {
             color: $github;
           }
@@ -42,7 +42,7 @@
           border-radius: 15px;
           transition: all 0.3s;
           background-color: rgba(255, 255, 255, 80%);
-    
+
           svg {
             color: #222;
             transition: color 0.3s;
@@ -50,6 +50,5 @@
         }
       }
     }
-    
   }
 }
