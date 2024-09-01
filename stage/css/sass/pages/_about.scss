@@ -35,3 +35,34 @@
     gap: 3rem;
   }
 }
+
+.team {
+  .row {
+    align-items: center;
+  }
+  .card {
+    position: relative;
+    max-width: 350px;
+    margin: {
+      bottom: 2.5rem;
+      left: 60px;
+    }
+
+    .image {
+      position: absolute !important;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -60px;
+
+      img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50% !important;
+      }
+    }
+
+    .card-body {
+      padding-left: calc(60px + 2rem);
+    }
+  }
+}
