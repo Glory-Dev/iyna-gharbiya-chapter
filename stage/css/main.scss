@@ -6,6 +6,7 @@
 @import "./sass/components/button";
 // Layout
 @import "./sass/layout/global-rules";
+
 body {
   // Layout
   @import "./sass/layout/navbar";
@@ -14,7 +15,8 @@ body {
   // Pages
   @import "./sass/pages/home";
   @import "./sass/pages/about";
-  @import "./sass/pages/contest";
   @import "./sass/pages/journals";
+  @import "./sass/pages/program";
+  @import "./sass/pages/contest";
   @import "./sass/pages/contact";
 }
