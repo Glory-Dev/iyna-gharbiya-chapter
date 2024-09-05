@@ -7,9 +7,15 @@
 .text-justify {
   text-align: justify;
 }
+
+.ff-secondary {
+  font-family: $body-secondary-font;
+}
+
 .ff-syne {
   font-family: $syne-font;
 }
+
 .ff-syncopate {
   font-family: $syncopate-font;
 }
@@ -18,6 +24,7 @@
 .main-text {
   color: #011b69 !important;
 }
+
 .main-bg {
   color: white;
   background-color: #011b69 !important;
