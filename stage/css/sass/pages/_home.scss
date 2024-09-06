@@ -8,13 +8,13 @@
       p.number {
         font-size: 4rem;
         &.plus-sign::after {
-          content: "+";
-        }
+          content: "+";}
+        &.p-sign::after {
+          content: "%";}
       }
     }
   }
 }
-
 .sections {
   .box {
     .text {
